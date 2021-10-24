@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source .env
+
 ./convert.sh $1 $2 $3
 
 remote=$(git remote get-url origin)
